@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,13 +15,17 @@
         <article class="article">
             <img class="article__image" src="../Card/img/avatar.png" alt="uśmiechnięty korsan">
             <section class="person">
-                <h1 class="person__name">Maciek Korsan</h1>
-                <h3 class="person__job">frontend eveloper</h3>
-                <p class="person__desctription>">Programista z kilkunastoletnim doświadczeniem,         fotograf,   operator drona, właściciel Sokoła Millennium (na razie tylko z Lego),   prelegent i szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, w swojej    twórczości ocierając się o sztukę.
-                </p>
-                <footer class="person__footer">
-                    W sieci: Facebook, GitHub, Instagram.
-                </footer>
+                <section class="person__about">
+                    <h1 class="person__name">Maciek Korsan</h1>
+                    <p class="person__job">frontend developer</p>
+                </section>
+                <section class="person__description">
+                    <p class="person__desctription-paragraph>">Programista z <span class="person__yellow">kilkunastoletnim doświadczeniem</span>, fotograf,   operator drona, właściciel Sokoła Millennium (na razie tylko z Lego),   <span class="person__yellow">prelegent i szkoleniowiec</span>. Uwielbia eksperymentować z nowymi technologiami, w swojej    twórczości ocierając się o sztukę.
+                    </p><br>
+                    <footer class="person__footer">
+                        W sieci: <a class="person__link" href="#">Facebook</a>, <a class="person__link" href="#">GitHub</a>, <a class="person__link" href="#">Instagram</a>.
+                    </footer>
+                </section>
             </section>
         </article>
     </main>
